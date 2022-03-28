@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40527C4F27F1A77C007B936B /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40527C4E27F1A77C007B936B /* TestController.swift */; };
 		4EC23B3E27EDD23C0079ABAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC23B3D27EDD23C0079ABAA /* AppDelegate.swift */; };
 		4EC23B4027EDD23C0079ABAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC23B3F27EDD23C0079ABAA /* SceneDelegate.swift */; };
 		4EC23B4227EDD23C0079ABAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC23B4127EDD23C0079ABAA /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		1384622FB630607FDE6A3B15 /* Pods-GITCHECK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GITCHECK.release.xcconfig"; path = "Target Support Files/Pods-GITCHECK/Pods-GITCHECK.release.xcconfig"; sourceTree = "<group>"; };
 		241208238A3E12DE24B5EA24 /* Pods-GITCHECKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GITCHECKTests.release.xcconfig"; path = "Target Support Files/Pods-GITCHECKTests/Pods-GITCHECKTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C41C8D9DE8727411741BBB3 /* Pods_GITCHECKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GITCHECKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40527C4E27F1A77C007B936B /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		4EC23B3A27EDD23C0079ABAA /* GITCHECK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GITCHECK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC23B3D27EDD23C0079ABAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC23B3F27EDD23C0079ABAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40527C4D27F1A767007B936B /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				40527C4E27F1A77C007B936B /* TestController.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
 		4E6879A5A09CE05FDAA3AE11 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +136,7 @@
 		4EC23B3C27EDD23C0079ABAA /* GITCHECK */ = {
 			isa = PBXGroup;
 			children = (
+				40527C4D27F1A767007B936B /* Testing */,
 				4EC23B3D27EDD23C0079ABAA /* AppDelegate.swift */,
 				4EC23B3F27EDD23C0079ABAA /* SceneDelegate.swift */,
 				4EC23B4127EDD23C0079ABAA /* ViewController.swift */,
@@ -164,7 +175,6 @@
 				6DC22B5FF4BD9C1FE3C71347 /* Pods-GITCHECKTests.debug.xcconfig */,
 				241208238A3E12DE24B5EA24 /* Pods-GITCHECKTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,6 +420,7 @@
 				4EC23B4227EDD23C0079ABAA /* ViewController.swift in Sources */,
 				4EC23B3E27EDD23C0079ABAA /* AppDelegate.swift in Sources */,
 				4EC23B4027EDD23C0079ABAA /* SceneDelegate.swift in Sources */,
+				40527C4F27F1A77C007B936B /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
