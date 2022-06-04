@@ -15,9 +15,7 @@ class ViewController: UIViewController {
         
         
         // AYYAR
-        print("Ayyarappan - iOS Developer")
         
-        print("gitcheck")
     }
 
 }
