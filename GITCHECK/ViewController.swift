@@ -12,8 +12,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
+        // AYYAR
+        print("Ayyarappan - iOS Developer")
+        
+        print("gitcheck")
+    }
+    
+    func getCheck(){
+        
     }
 
-
 }
-
