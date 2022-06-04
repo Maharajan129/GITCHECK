@@ -19,5 +19,9 @@ class ViewController: UIViewController {
         
         print("gitcheck")
     }
+    
+    func getCheck(){
+        
+    }
 
 }
